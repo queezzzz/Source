@@ -1,0 +1,59 @@
+body{
+    background-color: darkblue;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    color: aliceblue;
+}
+nav{
+    background-color: rgb(4, 4, 164);
+    font-size: 27px;
+    background-repeat: repeat; /* Repeat the texture */
+    text-align: center; /* Center the text horizontally */
+    padding: 20px 0; /* Add vertical padding only */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+#maincomponents{
+    align-self: flex-end;
+
+    height: 100%;
+    padding-top: 50ch;
+    padding-bottom: 60ch;
+    padding-left:  20ch;
+    padding-right: 20ch;
+    border-radius: 10px;
+
+}
+
+.addflashcard{
+    background-color: orange;
+    
+}
+
+.addquiz{
+    background-color: green;
+}
+
+.takequiz{
+    background-color: darkblue;
+}
+
+.testflashcard{
+    background-color: rgb(47, 47, 178);
+}
+
+.mainpage{
+    width: 100ch;
+    display: flex;
+    justify-content:safe;
+    position: relative;
+
+}
+
